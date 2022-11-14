@@ -16,12 +16,12 @@ Developer: Tenirberdi Kambarov\ Deadline: 17th of November
 
 | Feature  | Testing strategy  | Tech design classes  |
 |---|---|---|
-| Converts from txt to 2d massive| 1 | Labyrinth |
-| Algorithm which finds shortest path  | 1  | PathFindingAlgorithm |
-| Offers list of txt maps | 1 | Labyrinth |
-| Shows current location of user | 1 | Labyrinth |
-| Checks whether txt map is valid | 1 | Labyrinth |
-| Ability to move on a map | 1 | Adventure |
+| Converts from txt to 2d massive| 3, 4 | Labyrinth |
+| Algorithm which finds shortest path  | 3  | PathFindingAlgorithm |
+| Offers list of txt maps | 2 | Labyrinth |
+| Shows current location of user | 4 | Labyrinth |
+| Checks whether txt map is valid | 2 | Labyrinth |
+| Ability to move on a map | 4 | Adventure |
 _______________________________________________________________________________________
 
 ## Text game features:
@@ -31,15 +31,15 @@ Developer: Kletsovka Tatyana\ Deadline: 17th of November
 
 | Feature  | Testing strategy  | Tech design classes  |
 |---|---|---|
-| User writes nickname | 1 | Player |
-| Setting difficulty  | 1  | DifficultyLevels |
-| User chooses the map | 1 | Labyrinth |
-| Possibility to quit/restart game at any time  | 1 | Adventure |
-| Checks whether entered command is valid | 1 | Adventure |
-| Fight monster | 1 | Adventure |
-| Use such items as shield, stone of fortune and weapon | 1 | Player, Adventure |
-| Probability of generation of certain things | 1 | DifficultyLevels |
-| Possibility to play "Dice Rolling" mini game | 1 | DiceRollingGame |
+| User writes nickname | 10 | Player |
+| Setting difficulty  | 11  | DifficultyLevels |
+| User chooses the map | 2 | Labyrinth |
+| Possibility to quit/restart game at any time  | 12 | Adventure |
+| Checks whether entered command is valid | 13 | Adventure |
+| Fight monster | 5 | Adventure |
+| Use such items as shield, stone of fortune and weapon | 6, 7, 8 | Player, Adventure |
+| Probability of generation of certain things | 11, 5-8 | DifficultyLevels |
+| Possibility to play "Dice Rolling" mini game | 5 | DiceRollingGame |
 
 _______________________________________________________________________________________
 
