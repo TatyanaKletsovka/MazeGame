@@ -6,7 +6,7 @@ A developer responsible for a feature should know everything what he needs to do
 
 For example, User writes his nickname feature is happening in the Menu class, but passes a variable to the Player class.
 
-To see that more clearly a developer should look into Technical Design. If he wants to test it, he has to look at the 2nd point of Testing Strategy. To know when the feature occurs during the runtime 2nd point of User Journey. It is recommended to take a look at the Diagram.
+To see that more clearly a developer should look into [Technical Design](https://git.syberry.com/syberry-academy/liftoff/crew-51022-i/-/blob/develop/Project%20Technical%20Design.md). If he wants to test it, he has to look at the 2nd point of [Testing Strategy](https://git.syberry.com/syberry-academy/liftoff/crew-51022-i/-/blob/develop/projectTestingStrategy.md). To know when the feature occurs during the runtime 2nd point of [User Journey](https://git.syberry.com/syberry-academy/liftoff/crew-51022-i/-/blob/develop/User_Journey_diagram.drawio.svg). It is recommended to take a look at the Diagram.
 
 _______________________________________________________________________________________
 
