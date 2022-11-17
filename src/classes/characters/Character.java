@@ -5,7 +5,7 @@ public class Character {
     protected int damage;
 
     private final int MIN_ROLL_POINT = 1;
-    private final int MAX_ROLL_POINT = 10;
+    private final int MAX_ROLL_POINT = 12;
 
     public Character() {
     }
