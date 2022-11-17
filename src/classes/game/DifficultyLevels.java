@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public enum DifficultyLevels {
-    EASY(0.01, 0.05, 0.12, 0.1, 0.5, 150, 30, 30, 15),
-    MEDIUM(0.12, 0.04, 0.11, 0.1, 0.45, 120, 30, 25, 15),
-    HARD(0.15, 0.03, 0.1, 0.1, 0.4, 100, 40, 20, 15);
+    EASY(0.1, 0.05, 0.12, 0.1, 0.5, 100, 30, 30, 15),
+    MEDIUM(0.12, 0.04, 0.11, 0.08, 0.45, 90, 30, 15, 15),
+    HARD(0.15, 0.03, 0.1, 0.05, 0.4, 80, 30, 10, 15);
 
     public final double monsterProbability;
     public final double weaponProbability;

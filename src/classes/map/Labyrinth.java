@@ -8,7 +8,7 @@ import static classes.tools.MessagesEditor.printInInformationFrame;
 
 public class Labyrinth {
 
-    private final String path = "./src/resources/maps/";
+    private final String path = "maps/";
     public char[][] maze;
 
     public Labyrinth() {
