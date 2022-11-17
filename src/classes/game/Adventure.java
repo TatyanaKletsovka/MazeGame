@@ -232,8 +232,8 @@ public class Adventure {
     public static boolean checkIfLastLocation(int[] coordinates) {
         return (!Arrays.equals(coordinates, new int[]{1, 0}))
                 && (coordinates[0] == labyrinth.maze.length - 1 || coordinates[0] == 0
-                || coordinates[1] == labyrinth.maze[0].length - 1 || coordinates[1] == 0
-                && getNexLocationChar(coordinates) == '-');
+                || coordinates[1] == labyrinth.maze[0].length - 1 || coordinates[1] == 0)
+                && getNexLocationChar(coordinates) == '-';
     }
 
     public static boolean meetMonster() {
